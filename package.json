@@ -1,0 +1,11 @@
+{
+  "name": "app-ugu-api",
+  "version": "1.0.0",
+  "description": "useful general utility api. When called it does things that are useful for the creator. The api can be published to a cloud provider, and when the creator needs an api to test ideas or provide generic JSON for projects in development, they dont have to launch a new server just fork this code and re-upload it through gitghub!",
+  "main": "core.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Jower",
+  "license": "ISC"
+}
