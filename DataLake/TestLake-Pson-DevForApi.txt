@@ -1,0 +1,33 @@
+[
+    {"LakeName":"TestLake", "metadata":{
+     "Purpose":"Experiment with making an api to take post requests and write json dat ain to a text file", 
+     "extraI-info":"When aking a new lake, start with the initial array bracket, and a descriptive object like tgis one. when the api makes a post request, teh jason data will add a comma at the end of this line, then make a new line to write the json object down. With out this object, there will be a random comma that causes an error when teh jason is attempted to be used.Also, becasue the coomma is inserted at the last line before the new data, it ensures that the latest entry does not have a comma at the end making it easier to tranform into a usable json file.  When you want to use this data, Simply add teh ending array bracket at teh bottom of teh list and then this file will be usable."},
+     "location-of-DataAnalysisFunctions":"TestLakeAnalyticsFunctions.js",
+     "location-o-FormatingRules":"TestLakeFormatingRules.js",
+     "notes":[
+        "You would have to download all three files, XFormatingRules.js, XAnalticsFunction.js, and XJSON.json (this file) together before use.",
+        "I shoudl make a temoplate funtion for these typrs of data pools.",
+        " It wmay be usefull to name them differently based on witch feteru of an app tehya re being prototyped for, may be have a probram that makes these data files mroe visally apealing to look ast instead of reading on elong line of text?",
+        " and also maybe an export fucntoion that automaticly turns this into a usabel ble JSon file.",
+        " maybe group each lake with direectly realated and custom make functions that do operations on teh data so when someone downloasds teh lake they aslso get doem pre written code to use to analie it.",
+        " also maybe have premade Formatting fulters as a midle ware function to ensure that the data being put into this lake by any given api is following the expected format rules.",
+        " so like you would use a pre made functon in your exopress/node.js code any time you want to start using this data lake? 0 is alwasy teh metadata object in teh array adn does not have a format.",
+        "NOTE. I reformated thsi file after writing these notes. As you can see ther eis a place for the functions and anylitics file",
+        "NOTE.Cont I seperated the long single line extra-info into these array based noted, one ellement epr idea, to illistarate a way ",
+        "NOTE.cont that one could take notes on teh fetures of a paket during their development, brain stroming ideas, or to provide instrucitons to otehr users when the packet structure is realaesed as a production format",
+        "Maybe I will use a few packet types to create data cross compatability with my mobile appps?",
+        "I think I am going to refer to this system as packetSON or Pson-Json or PacketWithJson"]
+    },
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","firstname":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","first-name":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","first-name":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","first-name":"Jack","lastname":"youup","profile":[]},
+{"Hello":"world","first-name":"Jack","lastname":"youup","profile":[]}
