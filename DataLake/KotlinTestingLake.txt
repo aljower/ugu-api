@@ -1,0 +1,11 @@
+[
+    {"LakeName":"KotlinTestingLake", "metadata":{
+     "Purpose":"A place to upload data via API from Kotlin Compose apps (Android or deskotp)", 
+     "extraI-info":"Using this lake, with this APi on an EC2, I can test the retrofit Library on my Compose apps with out using local host (Too complicated to set up)",
+     "location-of-DataAnalysisFunctions":"TestLakeAnalyticsFunctions.js",
+     "location-of-FormatingRules":"KotlinTestingLake.js",
+     "notes":[
+          "NOTE:Initial: This is a blank note"]
+    }
+}
+ 
