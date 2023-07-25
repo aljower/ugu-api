@@ -11,6 +11,5 @@ app.use('/home', apihome);
 app.get('/',(req,res) => {
     res.send("Hello Multiverse!! \n this code is working!");
 });
-
-
-app.listen(80, () => console.log("Listening on port 5000..."));
+ const PORT = 80
+app.listen(PORT, () => console.log(`Listening on port ${PORT}...`));
